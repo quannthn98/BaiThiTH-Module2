@@ -47,7 +47,7 @@ public class Contact implements Serializable {
 
     @Override
     public String toString() {
-        return "Model.Contact: " +
+        return "Contact: " +
                 "Name: '" + name + '\'' +
                 ", address: '" + address + '\'' +
                 ", email: '" + email + '\'' +

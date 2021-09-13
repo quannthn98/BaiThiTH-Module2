@@ -23,9 +23,9 @@ public class ContactManagement {
 
     public void showContactList(){
         int count = 0;
+
         for (Contact contact : contactList) {
-            System.out.println(contact);
-            count++;
+            System.out.println(++count + ". " + contact);
             if (count == 5) {
                 count = 0;
                 scanner.nextLine();
